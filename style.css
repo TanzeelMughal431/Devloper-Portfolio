@@ -8,6 +8,9 @@ body {
   width: 100%;
   background-color: rgba(15, 23, 36, 1);
 }
+button:hover{
+  cursor: pointer;
+}
 /* -------------design header--------- */
 header {
   width: 100%;
@@ -26,17 +29,15 @@ header > nav {
 }
 nav > h3 {
   font-size: 1.56vw;
-  /* width: 20%; */
 }
 #pages {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  /* width: 40%; */
+  gap: 1.5vw;
 }
 #pages > a {
-  margin: 0 1vw 0 1vw;
   font-size: 1.09vw;
   text-decoration: none;
   color: white;
@@ -49,6 +50,17 @@ nav > h3 {
 }
 #Soical_icon > img {
   width: 1.4vw;
+}
+.h_C:hover {
+  cursor: pointer;
+  border: 0.2vw solid rgba(146, 104, 225, 1);
+  border-radius: 1.3vw;
+  width: 3.9vw;
+}
+.h_Cln:hover {
+  cursor: pointer;
+  border: 0.2vw solid rgba(146, 104, 225, 1);
+  border-radius: 0.2vw;
 }
 /* -----------design hero section------------ */
 #hero_section {
@@ -181,7 +193,6 @@ nav > h3 {
   font-weight: bold;
   background-color: inherit;
 }
-
 .card-btn {
   display: flex;
   gap: 0.5vw;
