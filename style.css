@@ -11,7 +11,6 @@ body {
 button:hover {
   cursor: pointer;
 }
-
 /* -------------design header--------- */
 header {
   width: 100%;
@@ -131,6 +130,7 @@ nav > h3 {
     rgba(13, 178, 223, 1)
   );
 }
+/* -----------Project section Design------------ */
 #cards {
   margin: 1vw 19.14vw 1vw 19.14vw;
   padding: 3.91vw 0 0 0;
@@ -202,3 +202,4 @@ nav > h3 {
   display: flex;
   gap: 0.5vw;
 }
+/* -----------Technologies Section Design------------ */
