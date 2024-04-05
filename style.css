@@ -111,7 +111,7 @@ nav > h3 {
   align-items: center;
   justify-content: space-between;
   /* gap: 2vw; */
-  width: 29.92vw;
+  width: 29vw;
   height: 35vw;
   color: white;
   overflow: hidden;
@@ -141,9 +141,8 @@ nav > h3 {
   color: white;
   border: 0px solid white;
   border-radius: 3vw;
-  width: 11.48vw;
-  padding: 1.3vw 1vw;
-  margin-right: 0.1vw;
+  width: 11vw;
+  padding: 1.3vw 0.1vw;
   font-size: 1.3vw;
   font-weight: bold;
   /* --------bg-gradient------ */
@@ -157,9 +156,13 @@ nav > h3 {
   color: white;
   border: 0.2vw solid white;
   border-radius: 3vw;
-  width: 14.48vw;
-  padding: 1.2vw 1vw;
+  width: 13vw;
+  padding: 1.2vw 0.7vw;
   font-size: 1.3vw;
   font-weight: bold;
   background-color: inherit;
+}
+
+.card-btn{
+
 }
