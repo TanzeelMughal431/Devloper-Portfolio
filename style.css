@@ -60,7 +60,7 @@ nav > h3 {
   width: 40vw;
 }
 #left_content {
-    padding: 8vw 0;
+  padding: 8vw 0;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -79,34 +79,73 @@ nav > h3 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  
-  
 }
 #left_content > p {
-    font-size: 1.02;
+  font-size: 1.02;
 }
-#left_content >button{
-    color: white;
-    border: 0px solid white;
-    border-radius: 3vw;
-    width: 11.48vw;
-    padding: 1.06vw 1vw ;
-    font-size: 1.02vw;
-    font-weight: bold;    
-    /* --------bg-gradient------ */
-    background-image: linear-gradient(to right, rgba(146, 104, 225, 1), rgba(13, 178, 223, 1));
-
+#left_content > button {
+  color: white;
+  border: 0px solid white;
+  border-radius: 3vw;
+  width: 11.48vw;
+  padding: 1.06vw 1vw;
+  font-size: 1.02vw;
+  font-weight: bold;
+  /* --------bg-gradient------ */
+  background-image: linear-gradient(
+    to right,
+    rgba(146, 104, 225, 1),
+    rgba(13, 178, 223, 1)
+  );
 }
-#cards{
+#cards {
   margin: 1vw 19.14vw 1vw 19.14vw;
   padding: 3.91vw 0 0 0;
 }
-.card{
-  width: 3vw;
-  height: 64vh;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8vh;
+  width: 29.92vw;
+  height: 75vh;
+  color: white;
   overflow: hidden;
-  border: 3px solid red;
+  border: 0.2vw solid transparent; /* Set initial transparent border */
+  border-image: linear-gradient(
+      to right,
+      rgba(146, 104, 225, 1),
+      rgba(13, 178, 223, 1)
+    )
+    1; /* Apply linear gradient as border */
+  padding: 1.5vw;
 }
-.card>img{
-  width: 450px;
+.card > img {
+  width: 100%;
+}
+.card-btn > button:nth-child(1) {
+  color: white;
+  border: 0px solid white;
+  border-radius: 3vw;
+  width: 11.48vw;
+  padding: 1.3vw 1vw;
+  margin-right: 0.1vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  /* --------bg-gradient------ */
+  background-image: linear-gradient(
+    to right,
+    rgba(146, 104, 225, 1),
+    rgba(13, 178, 223, 1)
+  );
+}
+.card-btn > button:nth-child(2) {
+  color: white;
+  border: 0.2vw solid white;
+  border-radius: 3vw;
+  width: 14.48vw;
+  padding: 1.2vw 1vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  background-color: inherit;
 }
