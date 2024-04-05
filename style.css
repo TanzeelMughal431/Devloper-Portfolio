@@ -203,16 +203,25 @@ nav > h3 {
   gap: 0.5vw;
 }
 /* -----------Technologies Section Design------------ */
-.skills{
+#Technologies {
+  margin-top: 14vw;
   color: white;
+  margin: 1vw 19.14vw 1vw 19.14vw;
+  padding: 3.91vw 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+.skill {
+  border: 1vw sandybrown;
+  display: flex;
+  gap: 2vw;
+}
+.Skill_L {
+  width: 85%;
 
 }
-.skill{
-  border: 1vw sandybrown;
-}
-.Skill_L{
-  background-color: aqua;
-}
-.Skill_R{
-  background-color: aqua;
+
+.Skill_R {
+  width: 10%;
 }
