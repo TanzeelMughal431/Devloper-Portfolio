@@ -38,7 +38,7 @@ nav > h3 {
   color: white;
 }
 /* -----------design hero section------------ */
-section {
+#hero_section {
   color: white;
   display: flex;
   flex-direction: column;
@@ -96,4 +96,17 @@ section {
     /* --------bg-gradient------ */
     background-image: linear-gradient(to right, rgba(146, 104, 225, 1), rgba(13, 178, 223, 1));
 
+}
+#cards{
+  margin: 1vw 19.14vw 1vw 19.14vw;
+  padding: 3.91vw 0 0 0;
+}
+.card{
+  width: 3vw;
+  height: 64vh;
+  overflow: hidden;
+  border: 3px solid red;
+}
+.card>img{
+  width: 450px;
 }
