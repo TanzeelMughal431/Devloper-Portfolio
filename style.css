@@ -26,9 +26,14 @@ header > nav {
 }
 nav > h3 {
   font-size: 1.56vw;
+  /* width: 20%; */
 }
 #pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: bold;
+  /* width: 40%; */
 }
 #pages > a {
   margin: 0 1vw 0 1vw;
@@ -36,8 +41,14 @@ nav > h3 {
   text-decoration: none;
   color: white;
 }
+#Soical_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.4vw;
+}
 #Soical_icon > img {
-  width: 7vw;
+  width: 1.4vw;
 }
 /* -----------design hero section------------ */
 #hero_section {
