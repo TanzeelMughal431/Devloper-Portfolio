@@ -8,9 +8,10 @@ body {
   width: 100%;
   background-color: rgba(15, 23, 36, 1);
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
+
 /* -------------design header--------- */
 header {
   width: 100%;
@@ -42,6 +43,10 @@ nav > h3 {
   text-decoration: none;
   color: white;
 }
+#pages > a:hover {
+  padding-bottom: 0.1vw;
+  border-bottom: 0.2vw solid rgb(13, 178, 223);
+}
 #Soical_icon {
   display: flex;
   justify-content: space-between;
@@ -59,8 +64,8 @@ nav > h3 {
 }
 .h_Cln:hover {
   cursor: pointer;
-  border: 0.2vw solid rgba(146, 104, 225, 1);
-  border-radius: 0.2vw;
+  padding-bottom: 0.1vw;
+  border-bottom: 0.2vw solid rgba(146, 104, 225, 1);
 }
 /* -----------design hero section------------ */
 #hero_section {
