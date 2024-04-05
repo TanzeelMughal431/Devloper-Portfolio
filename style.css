@@ -7,7 +7,6 @@ body {
   font-family: "Inter", sans-serif;
   width: 100%;
   background-color: rgba(15, 23, 36, 1);
-  font-family: ;
 }
 /* -------------design header--------- */
 header {
@@ -37,8 +36,8 @@ nav > h3 {
   text-decoration: none;
   color: white;
 }
-#social-icon{
-
+#Soical_icon > img {
+  width: 7vw;
 }
 /* -----------design hero section------------ */
 #hero_section {
