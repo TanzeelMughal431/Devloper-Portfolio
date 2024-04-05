@@ -203,3 +203,16 @@ nav > h3 {
   gap: 0.5vw;
 }
 /* -----------Technologies Section Design------------ */
+.skills{
+  color: white;
+
+}
+.skill{
+  border: 1vw sandybrown;
+}
+.Skill_L{
+  background-color: aqua;
+}
+.Skill_R{
+  background-color: aqua;
+}
