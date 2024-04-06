@@ -220,6 +220,7 @@ nav > h3 {
 .skills {
   display: flex;
   flex-direction: column;
+  gap: 2.5vw;
 }
 .progress_bar {
   display: flex;
@@ -236,7 +237,7 @@ nav > h3 {
 .progress-bar {
   /* <!-- -------you change the value of width according to progress bar full size (Max.Min)-- --> */
   /* width: 100%; */
-  height: 1.2vw;
+  height: 1vw;
   background-color: #ddd;
   border-radius: 10vw;
   overflow: hidden;
@@ -254,7 +255,7 @@ nav > h3 {
   transition: width 0.5s ease-in-out;
 }
 .Skill_L > h3 {
-  font-size: 1.6vw;
+  font-size: 1.2vw;
 }
 .Skill_R {
   width: 10%;
@@ -263,5 +264,5 @@ nav > h3 {
   justify-content: right;
 }
 .Skill_R > h5 {
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
