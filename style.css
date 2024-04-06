@@ -247,8 +247,8 @@ nav > h3 {
   /* <!-- -------you change the value of width according to progress bar value-- --> */
   height: 100%;
   background: linear-gradient(
-    to right,
-    rgba(146, 104, 225, 1),
+    80deg,
+    rgba(146, 104, 225, 2),
     rgba(13, 178, 223, 1)
   );
   border-radius: 10vw;
@@ -265,4 +265,43 @@ nav > h3 {
 }
 .Skill_R > h5 {
   font-size: 0.8vw;
+}
+/* -----------Additional Technologies & Skill Section Design------------ */
+#A_tech{
+  margin-top: 14vw;
+  color: white;
+  margin: 1vw 19.14vw 1vw 19.14vw;
+  /* padding: 3.91vw 0.3vw 0.2vw 0.2vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+
+}
+.A_Skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+}
+.A_Skill{
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: left;
+
+}
+.A_Skill>h4{
+  font-size: 1.6vw;
+}
+.C_Bullet{
+  width: 1.5vw;
+    height:1.5vw;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rebeccapurple;
+    background: linear-gradient(
+      115deg,
+        rgba(146, 104, 225, 2),
+        rgba(13, 178, 223, 1)
+    );
 }
