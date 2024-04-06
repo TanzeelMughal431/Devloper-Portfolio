@@ -137,6 +137,8 @@ nav > h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 1vw;
+  justify-content: center
+  ;
 }
 .card {
   display: flex;
@@ -207,19 +209,20 @@ nav > h3 {
   margin-top: 14vw;
   color: white;
   margin: 1vw 19.14vw 1vw 19.14vw;
-  padding: 3.91vw 0.3vw 0.2vw 0.2vw;
+  /* padding: 3.91vw 0.3vw 0.2vw 0.2vw; */
   display: flex;
   flex-direction: column;
-  gap: 4vw;
-  border: 3px solid rgb(49, 135, 222);
+  justify-content: center;
+  gap: 4vw;  
 }
 #Technologies>h2{
   font-size: 2.5vw;
 }
 .skill {
-  border: 1vw sandybrown;
   display: flex;
   gap: 2vw;
+  justify-content: center;
+  padding: 0.5vw;
 }
 .Skill_L {
   width: 85%;
