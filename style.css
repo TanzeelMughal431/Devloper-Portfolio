@@ -267,41 +267,47 @@ nav > h3 {
   font-size: 0.8vw;
 }
 /* -----------Additional Technologies & Skill Section Design------------ */
-#A_tech{
+#A_tech {
   margin-top: 14vw;
   color: white;
-  margin: 1vw 19.14vw 1vw 19.14vw;
+  margin: 8vw 19.14vw 0vw 19.14vw;
   /* padding: 3.91vw 0.3vw 0.2vw 0.2vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2vw;
-
-}
-.A_Skills{
-  display: flex;
-  flex-wrap: wrap;
   gap: 3vw;
 }
-.A_Skill{
+#A_tech > h1 {
+  font-size: 2.5vw;
+}
+.Clm_Skills {
   display: flex;
-  gap: 1vw;
+  flex-direction: column;
+  gap: 1.6vw;
+}
+.A_Skills {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.A_Skill {
+  display: flex;
   align-items: center;
   justify-content: left;
-
+  gap: 1vw;
 }
-.A_Skill>h4{
-  font-size: 1.6vw;
+.A_Skill > h4 {
+  font-size: 1vw;
 }
-.C_Bullet{
+.C_Bullet {
   width: 1.5vw;
-    height:1.5vw;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: rebeccapurple;
-    background: linear-gradient(
-      115deg,
-        rgba(146, 104, 225, 2),
-        rgba(13, 178, 223, 1)
-    );
+  height: 1.5vw;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rebeccapurple;
+  background: linear-gradient(
+    115deg,
+    rgba(146, 104, 225, 2),
+    rgba(13, 178, 223, 1)
+  );
 }
