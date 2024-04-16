@@ -311,3 +311,31 @@ nav > h3 {
     rgba(13, 178, 223, 1)
   );
 }
+#About_me {
+  margin-top: 14vw;
+  color: white;
+  margin: 2vw 19.14vw 1vw 19.14vw;
+  /* padding: 3.91vw 0.3vw 0.2vw 0.2vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+}
+.About_clr{
+  width: 1vw;
+  height: 1vw;
+}
+h1 {
+  font-size: 2.5vw;
+}
+.clm_a{
+  width: 25%;
+}
+.bg_line{
+  background-color: white;
+  height: 0.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
