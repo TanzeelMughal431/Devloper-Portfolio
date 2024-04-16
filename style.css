@@ -321,21 +321,35 @@ nav > h3 {
   justify-content: center;
   gap: 2vw;
 }
-.About_clr{
+.About_con {
+  display: flex;
+}
+.About_clr {
   width: 1vw;
   height: 1vw;
 }
 h1 {
   font-size: 2.5vw;
 }
-.clm_a{
-  width: 25%;
+.clm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
 }
-.bg_line{
+.clm > h3 {
+  font-size: 1vw;
+}
+.bg_line {
   background-color: white;
   height: 0.3vw;
+  width: 100%;
+  top: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+}
+#About_content {
+  font-size: 1.1vw;
+  padding: 0 1vw 1vw 0vw;
 }
