@@ -101,7 +101,7 @@ nav > h3 {
 #left_content > h1 {
   font-size: 3.4vw;
 }
-#left_content > h1 > span {
+.Txt_bg_color {
   background-image: linear-gradient(
     to right,
     rgba(146, 104, 225, 1),
@@ -112,7 +112,7 @@ nav > h3 {
   background-clip: text;
   color: transparent;
 }
-#left_content > p {
+p {
   font-size: 1.02vw;
 }
 #left_content > button {
@@ -296,7 +296,7 @@ nav > h3 {
   justify-content: left;
   gap: 1vw;
 }
-.A_Skill > h4 {
+ h4 {
   font-size: 1vw;
 }
 .C_Bullet {
@@ -353,3 +353,14 @@ h1 {
   font-size: 1.1vw;
   padding: 0 1vw 1vw 0vw;
 }
+footer {
+  margin-top: 14vw;
+  color: white;
+  margin: 2vw 19.14vw 1vw 19.14vw;
+  padding: 3.91vw 0.3vw 1vw 0.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2vw;
+}
+
